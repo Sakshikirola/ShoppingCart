@@ -1,16 +1,39 @@
-# React + Vite
+# React Shopping Cart (Revision Project)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a small React revision project created for practicing and refreshing core React concepts. The project focuses on understanding component structure, routing, state management, and Context API usage.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Product listing page
+- Add products to cart
+- Remove products from cart
+- Dynamic cart quantity updates
+- Total cart amount calculation
+- Navigation using React Router
+- Global state management using Context API
 
-## React Compiler
+## Concepts Practiced
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Functional Components
+- Props
+- useState Hook
+- useContext Hook
+- React Context API
+- React Router DOM
+- Conditional Rendering
+- Mapping data using `.map()`
+- Event handling
+- Component-based architecture
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- React Router DOM
+- CSS
+- React Icons
+
+## Learning Purpose
+
+This project was built primarily as a revision exercise to strengthen understanding of React fundamentals and Context API implementation rather than as a production-level application.
+
