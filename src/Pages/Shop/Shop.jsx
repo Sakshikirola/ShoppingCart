@@ -7,12 +7,12 @@ const Shop = () => {
     <div className='shop'>
       <div className='shopTitle'>
         <h1>Edutech Shop</h1>
-      </div>
+      </div> 
 
       <div className="products"> 
         {PRODUCTS.map((product) => (
           <Product data={product}/> 
-        ))} 
+        ))}  
       </div>
     </div>
   )
